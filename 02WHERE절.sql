@@ -40,7 +40,8 @@ SELECT * FROM EMPLOYEES WHERE DEPARTMENT_ID NOT IN(50, 60); --부서 아이디가 50, 
 SELECT * FROM EMPLOYEES WHERE JOB_ID NOT LIKE '%MAN%'; --직업명이 MAN가 아닌
 SELECT * FROM EMPLOYEES WHERE HIRE_DATE NOT BETWEEN '03/01/01' AND '03/12/31';
 
---------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
 --ORDER BY
 SELECT * FROM EMPLOYEES ORDER BY SALARY; --아무것도 안적으면 ASC 입니다.
 SELECT * FROM EMPLOYEES ORDER BY DEPARTMENT_ID DESC;
